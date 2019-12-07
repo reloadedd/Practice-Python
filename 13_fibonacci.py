@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-def generate_fibonacci_sequence(elements_number: int) -> int:
+def generate_fibonacci_sequence(elements_number: int) -> None:
 	"""Generate the first *n* elements of the fibonacci sequence
 	"""
 	fib1 = 1
@@ -11,7 +11,7 @@ def generate_fibonacci_sequence(elements_number: int) -> int:
 	if elements_number <= 2:
 		if elements_number == 1:
 			print(fib1)
-			return 
+			return
 		print(fib2)
 		return
 
@@ -27,9 +27,10 @@ def generate_fibonacci_sequence(elements_number: int) -> int:
 
 
 def main():
-	elements_number = int(input('How many elements of the Fibonacci\'s sequence to generate? >>> '))
+	elements_number = int(input("How many elements of the Fibonacci's sequence"
+								" to generate? >>> "))
 	generate_fibonacci_sequence(elements_number)
 
 
 if __name__ == '__main__':
-		main()	
+	main()
