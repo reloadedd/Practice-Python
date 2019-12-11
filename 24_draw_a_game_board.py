@@ -15,7 +15,8 @@ def create_board(size: int) -> None:
 
     for i in range(size):
         create_line(size)
-    print(' ---' * size, sep='')    #
+    # print this here to match the ending dashes
+    print(' ---' * size, sep='')
 
 
 if __name__ == '__main__':
