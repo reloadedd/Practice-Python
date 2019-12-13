@@ -9,7 +9,7 @@ def binary_search() -> None:
     while left <= right:
         guesses += 1
         middle = (left + right) // 2
-        print('It is {} ?'.format(middle))
+        print('Is it {} ?'.format(middle))
         guess = input('Your answer (Low/High/Match) >> ')
 
         if guess.lower() == 'match':
