@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 def check_prime_number(x: int) -> bool:
 	if x == 2:
 		return True

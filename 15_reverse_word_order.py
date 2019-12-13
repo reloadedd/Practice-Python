@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 
-def reverse_string() -> str:
-	"""This function asks the user for a string and then returns the reversed version of the string.
-	"""
+def reverse_string() -> None:
+	"""This function asks the user for a string and then returns the reversed
+	version of the string."""
 	input_string = input('Enter a string >>> ')
 	reversed_string = input_string.split()
 	reversed_string.reverse()	# reverse the list withing itself
