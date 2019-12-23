@@ -23,9 +23,7 @@ if __name__ == '__main__':
                         build_word[i] = letter
                 i += 1
 
-            for letter in build_word:
-                print(letter, end=' ')
-            print()     # Newline
+            print(' '.join(build_word))
 
             if '_' not in build_word:
                 guessed = True
