@@ -7,6 +7,7 @@ filename = 'info.json'
 
 
 def identify_month_by_number(number: str) -> str:
+    """Take the number of the month as a string and return its name."""
     if number == '01':
         return 'January'
     elif number == '02':
